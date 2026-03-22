@@ -1,0 +1,200 @@
+
+/* .signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;              
+  width: 100vw;               
+  background-color: #f8f9fa;  
+  margin: 0;
+  padding: 0;
+}
+
+
+.signup-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 90%;
+}
+
+
+.signup-box h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.signup-box .form-control {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+
+.signup-box .form-label {
+  font-weight: 500;
+  color: #555;
+}
+
+
+.signup-box .btn-primary {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.signup-box .btn-primary:hover {
+  background-color: #0056b3;
+  transition: 0.2s ease-in-out;
+}
+
+
+.signup-box p {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup-box p a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0d6efd;
+}
+
+.signup-box p a:hover {
+  text-decoration: underline;
+}
+ */
+
+
+ /* Container for 2-column layout */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f8f9fa;
+}
+
+/* Left side: intro text */
+.intro-section {
+  flex: 1; /* takes available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: #f0f4ff; /* soft background (customize) */
+  color: #333;
+  text-align: center;
+}
+
+/* Right side: form */
+.form-section {
+  flex: 1; /* equal width as left */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 90%;
+}
+
+.signup-box h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.signup-box .form-control {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.signup-box .form-label {
+  font-weight: 500;
+  color: #555;
+}
+
+.signup-box .btn-primary {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.signup-box .btn-primary:hover {
+  background-color: #0056b3;
+  transition: 0.2s ease-in-out;
+}
+
+.signup-box p {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup-box p a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0d6efd;
+}
+
+.signup-box p a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/*dashboard.jsx*/
+.dashboard {
+  padding: 20px;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.dashboard-header h1 {
+  font-size: 28px;
+  color: #2c3e50;
+}
+.dashboard-header p {
+  color: #7f8c8d;
+}
+
+.issues-section h2 {
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+.table {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.table th, .table td {
+  vertical-align: middle;
+}
